@@ -270,9 +270,9 @@ def violates(
    ```
 2. Provision `backend/.env`:
    ```dotenv
-   GROQ_API_KEY=gsk_your_actual_key_here
+   GROQ_API_KEY=your_groq_api_key
    GROQ_MODEL=openai/gpt-oss-120b
-   HINDSIGHT_API_KEY=your_actual_key_here
+   HINDSIGHT_API_KEY=your_hindsight_api_key
    HINDSIGHT_API_URL=https://api.hindsight.vectorize.io
    HINDSIGHT_PROJECT_ID=recallops-demo
    ```

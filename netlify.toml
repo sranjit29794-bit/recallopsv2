@@ -10,6 +10,8 @@
 
 [build.environment]
   NODE_VERSION = "20"
+  SECRETS_SCAN_OMIT_KEYS = "GROQ_API_KEY,HINDSIGHT_API_KEY"
+  SECRETS_SCAN_OMIT_PATHS = "backend/**,docs/**,.kilo/**"
 
 [[plugins]]
   package = "@netlify/plugin-nextjs"

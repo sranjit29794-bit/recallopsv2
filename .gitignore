@@ -1,14 +1,21 @@
 # Environment files and credentials
 .env
+.env.local
+.env.*.local
 *.env
 .env.*
 !.env.example
+!backend/.env.example
+!frontend/.env.example
 backend/.env
 backend/*.env
 backend/.env.*
-!backend/.env.example
 frontend/.env.local
 frontend/.env.*.local
+
+# IDE and AI Worktrees
+.kilo/
+
 
 # Python
 __pycache__/
